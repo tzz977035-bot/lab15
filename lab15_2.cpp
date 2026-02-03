@@ -11,3 +11,16 @@ int main(){
 	for(int i = 0; i<10; i++) cout << data[i] << " ";
 	return 0;
 }
+void shuffle(int &a, int &b, int &c, int &d){
+	int money[] = {a, b, c, d};
+	for(int i = 0; i < 4; i++){
+		int x = rand() % 4;
+		int temp = money[i];
+		money[i] = money[x];
+		money[x] = temp;
+	}
+	a = money[0];
+	b = money[1];
+	c = money[2];
+	d = money[3];
+}
