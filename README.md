@@ -1,2 +1,2 @@
-# NAME:
-# STUDENT ID:
+# NAME: พิเชษฐพงษ์ ไตรณรงค์
+# STUDENT ID: 680610774
